@@ -1,0 +1,153 @@
+# Version 3.5.0 (Betrayal) 06-12-2018
+Show
+    BaseType "Chaos Orb" "Divine Orb"  "Divine Vessel" "Orb of Horizons" "Harbinger's Orb"
+    SetTextColor 255 255 255
+    SetBackgroundColor 255 0 0
+    SetFontSize 42
+    PlayAlertSound 1 200
+    MinimapIcon 0 Blue Circle
+    PlayEffect Blue
+Show
+    Class "Map Fragment"
+    SetTextColor 255 255 255
+    SetBackgroundColor 255 0 0
+    SetFontSize 40
+    PlayAlertSound 1 200
+    MinimapIcon 0 Blue Circle
+    PlayEffect Blue
+Show
+    BaseType "Mirror of Kalandra" "Exalted Orb" "Timeworn Reliquary Key"
+    SetTextColor 255 255 255
+    SetBackgroundColor 255 0 0
+    SetFontSize 42
+    CustomAlertSound "exalted_orb.flac" 300
+    DisableDropSound
+    MinimapIcon 0 Blue Circle
+    PlayEffect Blue
+Show
+    BaseType "Empower" "Enlighten" "Enhance"
+    SetFontSize 42
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0
+    PlayEffect Green
+Show
+    BaseType "Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula"
+    SetFontSize 42
+    SetTextColor 0 255 255
+    SetBackgroundColor 0 0 0
+    PlayEffect Red
+Show
+    BaseType Talisman
+    SetTextColor 0 255 100
+Show
+    BaseType "Cartographer's Chisel" "Orb of Alchemy" "Orb of Scouring" "Orb of Regret" "Vaal Orb" "Regal Orb" "Orb of Fusing" "Jeweller's Orb" "Orb of Alteration" "Silver Coin" "Chromatic Orb" Sextant "Remnant of Corruption" "Gemcutter's Prism" "Stone of Passage"
+    SetTextColor 0 255 0
+    SetBackgroundColor 107 13 13
+    SetFontSize 38
+Show
+    BaseType "Essence of"
+    SetTextColor 0 255 0
+    SetBackgroundColor 107 13 13
+    SetFontSize 38
+Show
+    HasExplicitMod "Veil"
+    SetTextColor 255 0 255
+    SetBorderColor 255 0 255
+    SetFontSize 38
+    SetBackgroundColor 255 255 255
+Show
+    BaseType "Abandoned Wealth" "A Dab of Ink" "Beauty Through Death" "Boon of the First Ones" "Chaotic Disposition" "Dialla's Subjugation" "House of Mirrors" "Humility" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Left to Fate" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Mawr Blaidd" "Pride Before the Fall" "The Artist" "The Breach" "The Brittle Emperor" "The Cartographer" "The Celestial Justicar" "The Celestial Stone" "The Chains that Bind" "The Cursed King" "The Dapper Prodigy" "The Darkest Dream" "The Devastator" "The Doctor" "The Dragon" "The Dragon's Heart" "The Dreamer" "The Dreamland" "The Encroaching Darkness" "The Endless Darkness" "The Enlightened" "The Fathomless Depths" "The Fiend" "The Formless Sea" "The Hale Heart" "The Hoarder" "The Hunger" "The Immortal" "The Iron Bard" "The Jeweller's Boon" "The King's Heart" "The Last One Standing" "The Lion" "The Mayor" "The Obscured" "The Offering" "The Penitent" "The Polymath" "The Professor" "The Price of Protection" "The Queen" "The Saint's Treasure"
+    SetFontSize 42
+    SetBackgroundColor 255 255 255
+    SetTextColor 255 0 0
+Show
+    BaseType "The Life Thief" "The Nurse" "The Samurai's Eye" "The Sephirot" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Surveyor" "The Thaumaturgist" "The Trial" "The Twilight Moon" "The Undaunted" "The Valkyrie" "The Valley of Steel Boxes" "The Vast" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "The Wrath" "The Wretched" "Time-Lost Relic" "Wealth and Power" "The Master" "The Wilted Rose"
+    SetFontSize 42
+    SetBackgroundColor 255 255 255
+    SetTextColor 255 0 0
+Show
+    Class Currency
+    SetTextColor 0 255 0
+Show
+    BaseType Flask
+    Rarity >= Magic
+Show
+    Sockets 6
+    SetFontSize 38
+    SetBackgroundColor 0 0 255
+Show
+    Class Gem
+Show
+    Class Map
+    MapTier >= 11
+    SetTextColor 100 0 100
+    SetFontSize 42
+    SetBackgroundColor 0 0 0
+    SetTextColor 255 0 0
+    SetBorderColor 255 0 0
+    PlayEffect Red
+Show
+    Class Map
+    MapTier >= 6
+    SetTextColor 100 0 100
+    SetFontSize 38
+    SetBackgroundColor 0 0 0
+    SetBackgroundColor 255 255 0
+    SetBorderColor 255 255 0
+    PlayEffect Yellow Temp
+Show
+    Class Map
+Show
+    Class Jewel
+    Rarity > Rare
+Show
+    Class Quest Item
+Show
+    Class "Fishing Rod"
+    PlayEffect White
+    MinimapIcon 0 Blue Star
+Hide
+    BaseType "Prosperity" "Shard of Fate" "Struck by Lightning" "The Carrion Crow" "The Endurance" "The Inoculated" "The King's Blade" "The Metalsmith's Gift" "The Scholar" "The Scarred Meadow" "Thunderous Skies" "Turn the Other Cheek"
+Show
+    Class Divination Card
+    SetTextColor 255 0 0
+    SetFontSize 38
+Show
+    SocketGroup RGB
+    SetBorderColor 0 255 0
+Show
+    LinkedSockets 6
+    SetFontSize 40
+Show
+    BaseType "Sorcerer Boots"
+    Rarity < Magic
+Show
+    BaseType "Opal Ring" "Steel Ring" "Crystal Belt"
+    SetTextColor 0 0 255
+    SetFontSize 38
+    SetBackgroundColor 255 255 255
+Show
+    BaseType "Stygian Vise"
+Show
+    Class "Abyss Jewel"
+    SetFontSize 38
+    SetTextColor 0 0 255
+    SetBorderColor 0 0 255
+    SetBackgroundColor 0 0 0
+Show
+    ElderItem True
+    SetTextColor 255 0 255
+    SetBorderColor 255 0 255
+    SetFontSize 38
+    SetBackgroundColor 0 0 0
+Show
+    ShaperItem True
+    SetTextColor 255 0 255
+    SetBorderColor 255 0 255
+    SetFontSize 38
+    SetBackgroundColor 255 255 255
+Show
+    Rarity >= Rare
+Show
+    Identified True
+Hide
