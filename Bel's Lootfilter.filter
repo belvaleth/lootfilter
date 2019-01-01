@@ -1,6 +1,5 @@
-# Version 3.5.1 (Betrayal) 31-12-2018
 Show
-    BaseType "Chaos Orb" "Divine Orb"  "Divine Vessel" "Orb of Horizons" "Harbinger's Orb"
+    BaseType "Chaos Orb" "Divine Orb"  "Divine Vessel" "Orb of Horizons" "Harbinger's Orb" "Exalted Shard" "Journeyman Cartographer's Sextant" "Master Cartographer's Sextant"
     SetTextColor 255 255 255
     SetBackgroundColor 255 0 0
     SetFontSize 42
@@ -16,7 +15,7 @@ Show
     MinimapIcon 0 Blue Circle
     PlayEffect Blue
 Show
-    BaseType "Mirror of Kalandra" "Exalted Orb" "Timeworn Reliquary Key"
+    BaseType "Mirror of Kalandra" "Exalted Orb" "Timeworn Reliquary Key" "Mirror Shard"
     SetTextColor 255 255 255
     SetBackgroundColor 255 0 0
     SetFontSize 42
@@ -40,7 +39,7 @@ Show
     BaseType Talisman
     SetTextColor 0 255 100
 Show
-    BaseType "Cartographer's Chisel" "Orb of Alchemy" "Orb of Scouring" "Orb of Regret" "Vaal Orb" "Regal Orb" "Orb of Fusing" "Jeweller's Orb" "Orb of Alteration" "Silver Coin" "Chromatic Orb" Sextant "Remnant of Corruption" "Gemcutter's Prism" "Stone of Passage" "Orb of Binding"
+    BaseType "Cartographer's Chisel" "Orb of Alchemy" "Orb of Scouring" "Orb of Regret" "Vaal Orb" "Regal Orb" "Orb of Fusing" "Jeweller's Orb" "Orb of Alteration" "Silver Coin" "Chromatic Orb" "Apprentice Cartographer's Sextant" "Remnant of Corruption" "Gemcutter's Prism" "Stone of Passage" "Orb of Binding" "Chaos Shard"
     SetTextColor 0 255 0
     SetBackgroundColor 107 13 13
     SetFontSize 38
