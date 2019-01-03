@@ -1,9 +1,9 @@
 Show
-    BaseType "Chaos Orb" "Divine Orb"  "Divine Vessel" "Orb of Horizons" "Harbinger's Orb" "Exalted Shard" "Journeyman Cartographer's Sextant" "Master Cartographer's Sextant"
+    BaseType "Chaos Orb" "Divine Orb"  "Divine Vessel" "Orb of Horizons" "Harbinger's Orb" "Exalted Shard" "Journeyman Cartographer's Sextant" "Master Cartographer's Sextant" "Ancient Orb" "Orb of Annulment"
     SetTextColor 255 255 255
     SetBackgroundColor 255 0 0
     SetFontSize 42
-    PlayAlertSound 1 200
+    PlayAlertSoundPositional 1 200
     MinimapIcon 0 Blue Circle
     PlayEffect Blue
 Show
@@ -11,7 +11,7 @@ Show
     SetTextColor 255 255 255
     SetBackgroundColor 255 0 0
     SetFontSize 40
-    PlayAlertSound 1 200
+    PlayAlertSoundPositional 1 200
     MinimapIcon 0 Blue Circle
     PlayEffect Blue
 Show
@@ -39,7 +39,7 @@ Show
     BaseType Talisman
     SetTextColor 0 255 100
 Show
-    BaseType "Cartographer's Chisel" "Orb of Alchemy" "Orb of Scouring" "Orb of Regret" "Vaal Orb" "Regal Orb" "Orb of Fusing" "Jeweller's Orb" "Orb of Alteration" "Silver Coin" "Chromatic Orb" "Apprentice Cartographer's Sextant" "Remnant of Corruption" "Gemcutter's Prism" "Stone of Passage" "Orb of Binding" "Chaos Shard"
+    BaseType "Cartographer's Chisel" "Orb of Alchemy" "Orb of Scouring" "Orb of Regret" "Vaal Orb" "Regal Orb" "Orb of Fusing" "Jeweller's Orb" "Orb of Alteration" "Silver Coin" "Chromatic Orb" "Apprentice Cartographer's Sextant" "Remnant of Corruption" "Gemcutter's Prism" "Stone of Passage" "Orb of Binding" "Chaos Shard" "Ancient Shard" "Harbinger's Shard" "Horizon Shard" "Annulment Shard"
     SetTextColor 0 255 0
     SetBackgroundColor 107 13 13
     SetFontSize 38
@@ -55,15 +55,25 @@ Show
     SetFontSize 38
     SetBackgroundColor 255 255 255
 Show
-    BaseType "Abandoned Wealth" "A Dab of Ink" "Beauty Through Death" "Boon of the First Ones" "Chaotic Disposition" "Dialla's Subjugation" "House of Mirrors" "Humility" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Left to Fate" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Mawr Blaidd" "Pride Before the Fall" "The Artist" "The Breach" "The Brittle Emperor" "The Cartographer" "The Celestial Justicar" "The Celestial Stone" "The Chains that Bind" "The Cursed King" "The Dapper Prodigy" "The Darkest Dream" "The Devastator" "The Doctor" "The Dragon" "The Dragon's Heart" "The Dreamer" "The Dreamland" "The Encroaching Darkness" "The Endless Darkness" "The Enlightened" "The Fathomless Depths" "The Fiend" "The Formless Sea" "The Hale Heart" "The Hoarder" "The Hunger" "The Immortal" "The Iron Bard" "The Jeweller's Boon" "The King's Heart" "The Last One Standing" "The Lion" "The Mayor" "The Obscured" "The Offering" "The Penitent" "The Polymath" "The Professor" "The Price of Protection" "The Queen" "The Saint's Treasure"
+    BaseType "Abandoned Wealth" "A Dab of Ink" "Beauty Through Death" "Boon of the First Ones" "Chaotic Disposition" "Dialla's Subjugation" "House of Mirrors" "Humility" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Left to Fate" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Mawr Blaidd" "Pride Before the Fall" "The Artist" "The Breach" "The Brittle Emperor" "The Cartographer" "The Celestial Justicar" "The Celestial Stone" "The Chains that Bind" "The Cursed King" "The Dapper Prodigy" "The Darkest Dream" "The Devastator" "The Dragon" "The Dragon's Heart" "The Dreamer" "The Dreamland" "The Encroaching Darkness" "The Endless Darkness" "The Enlightened" "The Fathomless Depths" "The Fiend" "The Formless Sea" "The Hale Heart" "The Hoarder" "The Hunger" "The Immortal" "The Iron Bard" "The Jeweller's Boon" "The King's Heart" "The Last One Standing" "The Lion" "The Mayor" "The Obscured" "The Offering" "The Penitent" "The Polymath" "The Professor" "The Price of Protection" "The Queen" "The Saint's Treasure"
     SetFontSize 42
     SetBackgroundColor 255 255 255
     SetTextColor 255 0 0
+    PlayAlertSoundPositional 2 300
 Show
     BaseType "The Life Thief" "The Nurse" "The Samurai's Eye" "The Sephirot" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Surveyor" "The Thaumaturgist" "The Trial" "The Twilight Moon" "The Undaunted" "The Valkyrie" "The Valley of Steel Boxes" "The Vast" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "The Wrath" "The Wretched" "Time-Lost Relic" "Wealth and Power" "The Master" "The Wilted Rose"
     SetFontSize 42
     SetBackgroundColor 255 255 255
     SetTextColor 255 0 0
+    PlayAlertSoundPositional 2 300
+Show
+    BaseType "The Doctor"
+    SetFontSize 45
+    SetBackgroundColor 255 255 255
+    SetTextColor 255 0 0
+    CustomAlertSound "doctor.flac" 300
+    DisableDropSound
+    MinimapIcon 0 Red Circle
 Show
     Class Currency
     SetTextColor 0 255 0
@@ -146,7 +156,14 @@ Show
     SetFontSize 38
     SetBackgroundColor 255 255 255
 Show
-    Rarity >= Rare
+    Rarity = Rare
+    ItemLevel < 60
+    SetTextColor 255 255 119 220
+Show
+    Rarity = Rare
+    ItemLevel >= 60
+Show
+    Rarity = Unique
 Show
     Identified True
 Hide
