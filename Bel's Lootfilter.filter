@@ -55,13 +55,31 @@ Show
     SetFontSize 38
     SetBackgroundColor 255 255 255
 Show
+    FracturedItem True
+    SetTextColor 255 0 255
+    SetBorderColor 255 0 255
+    SetFontSize 38
+    SetBackgroundColor 255 255 255
+Show
+    SynthesisedItem True
+    SetTextColor 255 0 255
+    SetBorderColor 255 0 255
+    SetFontSize 38
+    SetBackgroundColor 255 255 255
+Show
+    AnyEnchantment True
+    SetTextColor 255 0 255
+    SetBorderColor 255 0 255
+    SetFontSize 38
+    SetBackgroundColor 255 255 255
+Show
     BaseType "Abandoned Wealth" "A Dab of Ink" "Beauty Through Death" "Boon of the First Ones" "Chaotic Disposition" "Dialla's Subjugation" "House of Mirrors" "Humility" "Hunter's Reward" "Immortal Resolve" "Last Hope" "Left to Fate" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Mawr Blaidd" "Pride Before the Fall" "The Artist" "The Breach" "The Brittle Emperor" "The Cartographer" "The Celestial Justicar" "The Celestial Stone" "The Chains that Bind" "The Cursed King" "The Dapper Prodigy" "The Darkest Dream" "The Devastator" "The Dragon" "The Dragon's Heart" "The Dreamer" "The Dreamland" "The Encroaching Darkness" "The Endless Darkness" "The Enlightened" "The Fathomless Depths" "The Fiend" "The Formless Sea" "The Hale Heart" "The Hoarder" "The Hunger" "The Immortal" "The Iron Bard" "The Jeweller's Boon" "The King's Heart" "The Last One Standing" "The Lion" "The Mayor" "The Obscured" "The Offering" "The Penitent" "The Polymath" "The Professor" "The Price of Protection" "The Queen" "The Saint's Treasure"
     SetFontSize 42
     SetBackgroundColor 255 255 255
     SetTextColor 255 0 0
     PlayAlertSoundPositional 2 300
 Show
-    BaseType "The Life Thief" "The Nurse" "The Samurai's Eye" "The Sephirot" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Surveyor" "The Thaumaturgist" "The Trial" "The Twilight Moon" "The Undaunted" "The Valkyrie" "The Valley of Steel Boxes" "The Vast" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "The Wrath" "The Wretched" "Time-Lost Relic" "Wealth and Power" "The Master" "The Wilted Rose"
+    BaseType "The Life Thief" "The Nurse" "The Samurai's Eye" "The Sephirot" "The Soul" "The Spark and the Flame" "The Standoff" "The Stormcaller" "The Surveyor" "The Thaumaturgist" "The Trial" "The Twilight Moon" "The Undaunted" "The Valkyrie" "The Valley of Steel Boxes" "The Vast" "The Wind" "The Wolf" "The Wolven King's Bite" "The World Eater" "The Wrath" "The Wretched" "Time-Lost Relic" "Wealth and Power" "The Master" "The Wilted Rose" "Alone in the Darkness" "The Landing" "Seven Years Bad Luck"
     SetFontSize 42
     SetBackgroundColor 255 255 255
     SetTextColor 255 0 0
