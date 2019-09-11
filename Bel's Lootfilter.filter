@@ -19,8 +19,7 @@ Show
     SetTextColor 255 255 255
     SetBackgroundColor 255 0 0
     SetFontSize 42
-    CustomAlertSound "exalted_orb.flac" 300
-    DisableDropSound
+    CustomAlertSound "exalted_orb.flac"
     MinimapIcon 0 Blue Circle
     PlayEffect Blue
 Show
@@ -85,12 +84,11 @@ Show
     SetTextColor 255 0 0
     PlayAlertSoundPositional 2 300
 Show
-    BaseType "The Doctor" "The Fiend"
+    BaseType "The Doctor" "The Fiend" "The Demon"
     SetFontSize 45
     SetBackgroundColor 255 255 255
     SetTextColor 255 0 0
-    CustomAlertSound "doctor.flac" 300
-    DisableDropSound
+    CustomAlertSound "doctor.flac"
     MinimapIcon 0 Red Circle
 Show
     Class Currency
