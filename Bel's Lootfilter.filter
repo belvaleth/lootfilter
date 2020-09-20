@@ -22,9 +22,6 @@ Show
     SetTextColor 0 255 0
     SetBackgroundColor 107 13 13
     SetFontSize 38
-Show
-    Class Currency
-    SetTextColor 0 255 0
 
 #Currency fragments/splinters
 
@@ -69,12 +66,6 @@ Show
     PlayEffect Green
 Show
     Class Gem
-    GemQualityType Superior
-    SetFontSize 38
-    SetTextColor 0 0 255
-    SetBackgroundColor 70 70 70
-Show
-    Class Gem
     GemQualityType Divergent
     GemQualityType Anomalous
     GemQualityType Phantasmal
@@ -82,6 +73,13 @@ Show
     SetTextColor 255 255 255
     SetBackgroundColor 0 0 0
     PlayEffect Green
+Show
+    Class Gem
+    Quality >= 1
+    SetFontSize 38
+    SetTextColor 0 0 255
+    SetBackgroundColor 70 70 70
+
 Show
     Class Gem
     AlternateQuality True
@@ -99,7 +97,8 @@ Show
     BaseType "Rogue's Marker"
     SetFontSize 38
     SetTextColor 0 255 0
-    SetBackgroundColor 0 0 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 0 255 0
 Show
     Class Contract
     ItemLevel > 78
@@ -199,6 +198,12 @@ Show
     SetBorderColor 255 0 255
     SetFontSize 38
     SetBackgroundColor 255 255 255
+
+#Delve League
+Show
+    BaseType Fossil
+Show
+    BaseType Resonator
 
 #Incursion League
 
@@ -382,6 +387,11 @@ Show
 Show
     Rarity = Unique
 
+#Catchalls
+
+Show
+    Class Currency
+    SetTextColor 0 255 0
 Show
     Identified True
 Hide
